@@ -12,6 +12,7 @@ import Footer from './Footer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Inspiration from './inspiration'
 import LearninguseContent from './LearninguseContent'
+import UniversityLostFound from './UniversityLostFound'
 
 
 
@@ -29,8 +30,10 @@ createRoot(document.getElementById('root')).render(
       </Routes>
       <Footer/>
    </BrowserRouter> */}
-   <Inspiration/>
+   {/* <Inspiration/> */}
    {/* <LearninguseContent/> */}
+   <UniversityLostFound/>
+   {/* <Lucid */}
 
   </StrictMode>,
 )
